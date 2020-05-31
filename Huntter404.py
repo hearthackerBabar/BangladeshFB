@@ -125,7 +125,7 @@ print  """
 \033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
  """
 CorrectUsername = "Huntter"
-CorrectPassword = "Bng"
+CorrectPassword = "Facebook"
 
 loop = 'true'
 while (loop == 'true'):
