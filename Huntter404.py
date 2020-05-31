@@ -106,9 +106,10 @@ print  """
 \033[1;91m_____████__████████████████████
 \033[1;91m____████___██████████████████
 \033[1;91m____███__█████████████████
+\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
 \033[1;92mNote1: Enter Tool usernam and Password 
 \033[1;92mNote2: This Tool is only for Bangladesh
-\033[1;95m«-----------------\033[1;91mHuntter\033[1;95m-----------------»"
+\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
  """
 CorrectUsername = "Huntter"
 CorrectPassword = "Bng"
@@ -346,7 +347,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
+		print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
 		print logo
 		jalan('\033[1;93mGetting Accounts \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
