@@ -106,8 +106,10 @@ print  """
 \033[1;91m_____████__████████████████████
 \033[1;91m____████___██████████████████
 \033[1;91m____███__█████████████████
+jalan(' \033[1;92mNote1: Enter Tool usernam and Password 
+jalan(' \033[1;9mNote2: This Tool is only for Bangladesh
+		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
 
-\033[1;97m[\\\Enter Tool Username And Password To Login And Continue///]
  """
 CorrectUsername = "Huntter"
 CorrectPassword = "Bng"
@@ -255,7 +257,7 @@ def menu():
 		keluar()
 	os.system("clear") #Dev:Babar_Ali
 	print logo
-	print "  \033[1;92m\033[1;93m⚡⚡Logged in User Info\033[1;92m⚡⚡"
+	print "  \033[1;92m\033[1;93m💫💫Logged in User Info\033[1;92m💫💫"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;91m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	print "\033[1;97m[1]\x1b[1;93mStart Hacking"
