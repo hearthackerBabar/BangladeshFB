@@ -106,10 +106,9 @@ print  """
 \033[1;91m_____████__████████████████████
 \033[1;91m____████___██████████████████
 \033[1;91m____███__█████████████████
-jalan(' \033[1;92mNote1: Enter Tool usernam and Password 
-jalan(' \033[1;9mNote2: This Tool is only for Bangladesh
-		print "\033[1;95m«-----------------\033[1;91mKalilinux\033[1;95m-----------------»"
-
+\033[1;92mNote1: Enter Tool usernam and Password 
+\033[1;92mNote2: This Tool is only for Bangladesh
+\033[1;95m«-----------------\033[1;91mHuntter\033[1;95m-----------------»"
  """
 CorrectUsername = "Huntter"
 CorrectPassword = "Bng"
