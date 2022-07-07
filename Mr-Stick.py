@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.01)
 
-#Dev:Babar_Ali
+#Dev:Mr_Stick
 ##### LOGO #####
 logo = """
                  .88888888:.
@@ -80,13 +80,13 @@ logo = """
 
 ---------------------------------------------
 \033[1;96m|-------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-----|
-\033[1;96m|               Pak Anonymous               |
+\033[1;96m|               Bangladeshi Anonymous               |
 \033[1;96m|This Tool is Only for Bangladesh FB Acounts|
 \033[1;96m|------+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+------|
 
-\033[1;91m [⚡\033[1;97mAuthor Name: Babar Ali     ⚡\033[1;91m]
-\033[1;91m [⚡\033[1;97mYutube Chnl: Pak Anonymous ⚡\033[1;91m]
-\033[1;91m [⚡       \033[1;97mFrom: Pakistan      ⚡\033[1;91m]
+\033[1;91m [⚡\033[1;97mAuthor Name: Mr.Stick     ⚡\033[1;91m]
+\033[1;91m [⚡\033[1;97mYutube Chnl: Bangladeshi Anonymous ⚡\033[1;91m]
+\033[1;91m [⚡       \033[1;97mFrom: Bangladesh      ⚡\033[1;91m]
 \033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
 """
 
@@ -124,7 +124,7 @@ print  """
 \033[1;92mNote2: This Tool is only for Bangladesh
 \033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
  """
-CorrectUsername = "Huntter"
+CorrectUsername = "Footprints"
 CorrectPassword = "Facebook"
 
 loop = 'true'
@@ -133,7 +133,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Babar_Ali
+            print "Logged in successfully as " + username #Dev:Mr_Stick
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -591,7 +591,7 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-#Dev:Babar_Ali
+#Dev:Mr_Stick
         print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
 	print '\033[1;94m[Process Has Been Completed]'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
